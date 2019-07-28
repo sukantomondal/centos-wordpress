@@ -10,7 +10,7 @@ ADD configure_wordpress.sh /root/configure_wordpress.sh
 ADD latest.zip /root/latest.zip
 
 
-ENV MYSQL_ROOT_PASS=root123 WPDB=wordpress WPDBUSER=wpuser WPDBPASS=!wp!user!  
+ENV MYSQL_ROOT_PASS=root123 WPDB=wordpress WPDBUSER=wpuser WPDBPASS=!wp!user! WPHOME_DIR=wordpress  
 
 RUN ["chmod", "+x", "/root/set_mysql_root_password.sh"]
 RUN ["chmod", "+x", "/root/create_database_for_wordpress.sh"]
