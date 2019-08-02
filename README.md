@@ -23,3 +23,4 @@ RewriteEngine On
 DirectoryIndex index.html index.php
 
 
+In apache document root : Allowovereide all should be placed insted of  Allowovereide none
